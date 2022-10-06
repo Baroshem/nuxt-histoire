@@ -5,8 +5,8 @@ This module is a simple wrapper around [histoire](https://histoire.dev). To lear
 ## Usage
 
 ```sh
-yarn add nuxt-histoire # yarn
-npm i nuxt-histoire # npm
+yarn add --dev nuxt-histoire # yarn
+npm i --save-dev nuxt-histoire # npm
 ```
 
 ```javascript
