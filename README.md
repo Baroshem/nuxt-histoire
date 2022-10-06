@@ -17,7 +17,7 @@ npm i nuxt-histoire # npm
     "nuxt-histoire",
   ],
   histoire: {
-    disabled: boolean // disable on production,
+    disabled: boolean, // disable on production
     configuration: HistoireConfig // Coming soon!
   }
 }

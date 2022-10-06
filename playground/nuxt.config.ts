@@ -6,11 +6,6 @@ export default defineNuxtConfig({
     MyModule
   ],
   histoire: {
-    configuration: {
-      viteIgnorePlugins: [
-        'vite:html',
-        'vite-plugin-some-stuff',
-      ],
-    }
-  }
+    disabled: false
+  },
 })
