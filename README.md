@@ -17,13 +17,24 @@ npm i --save-dev nuxt-histoire # npm
     "nuxt-histoire",
   ],
   histoire: {
-    disabled: boolean, // disable on production
-    configuration: HistoireConfig // Coming soon!
+    disabled?: boolean, // disable on production
+    configuration?: HistoireConfig // Coming soon!
   }
 }
 ```
 
-Make sure to run dev/build command at least once to let module create a `histoire.config.ts` file that is necessary for the Histoire to work correctly.
+Add following script to your `package.json` file:
+
+```json
+"story:dev": "nuxt prepare && histoire dev"
+```
+
+Run the command:
+
+```sh
+yarn story:dev # yarn
+npm run story:dev # npm
+```
 
 ## Features
 
