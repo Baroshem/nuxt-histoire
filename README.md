@@ -1,5 +1,7 @@
 # nuxt-histoire
 
+[DEPRECATED] Use the official module instead -> https://github.com/histoire-dev/histoire/blob/main/packages/histoire-plugin-nuxt/README.md
+
 This module is a simple wrapper around [histoire](https://histoire.dev). To learn more about it, please visit the official documentation.
 
 ## Usage
